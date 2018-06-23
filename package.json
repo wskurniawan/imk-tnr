@@ -1,0 +1,26 @@
+{
+  "name": "high-fi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "vue": "^2.5.16",
+    "vueify": "^9.4.1",
+    "vuetify": "^1.0.17"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
